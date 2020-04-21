@@ -2,12 +2,13 @@
 
 
 ### Objective
-Analyze disaster data from Figure Eight to build a model for an API that classifies disaster messages. This project includes a web app where an emergency worker can input a new message and get classification results in several categories. The web app also displays visualizations of the data. 
+Analyze disaster data from Figure Eight to build a model for an API that classifies disaster messages. This project includes a web app where an emergency worker can input a new message and get classification results in several categories. The web app also displays visualizations of the data like the following:
+
+![](disaster-response-project1.png)
+![](disaster-response-project2.png)
 
 
-
-
-### Instructions:
+### How to use
 1. Run the following commands in the project's root directory to set up your database and model.
 
     - To run ETL pipeline that cleans data and stores in database
@@ -19,3 +20,11 @@ Analyze disaster data from Figure Eight to build a model for an API that classif
     `python run.py`
 
 3. Go to http://0.0.0.0:3001/
+
+### Instruction
+
+* app: Flask web app folder
+* data: data resources folder
+* models: model generator folder
+* ipynb: jupyter notebooks for ETL and ML development
+
